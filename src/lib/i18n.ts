@@ -1,0 +1,168 @@
+export type Locale = "en" | "ar";
+
+export const en = {
+  announce: "Free Shipping On Orders Above 1000 EGP",
+  nav: { home: "Home", shop: "Shop", about: "About", contact: "Contact", shopNow: "Shop Now" },
+  hero: {
+    badge: "Premium Tropical Jam",
+    title: "Get Your Summer Jam",
+    sub: "Real fruit, bold flavor. Crafted in small batches in Cairo with love for honest, tropical taste.",
+    cta: "Shop The Collection",
+    secondary: "Our Story",
+    new: "New",
+    summer: "Summer Jam",
+  },
+  trust: { real: "Real Fruit", no: "No Preservatives", made: "Made in Egypt" },
+  featured: {
+    eyebrow: "Limited Edition",
+    title: "Get Your Collection",
+    name: "Tropical Jam Collection Box — 4 Flavours",
+    desc: "A tropical gift box made to brighten every bite. Discover 4 premium jam flavors crafted with real fruit, packed in one elegant gift box.",
+    boxLabel: "Box Contains",
+    flavors: ["Lychee", "Dragon Fruit & Strawberry", "Passion Fruit", "Passion Fruit & Lemon"],
+    features: ["Made from real fruit", "No artificial colors", "No preservatives", "Elegant packaging, perfect for gifts"],
+    cta: "Add to cart",
+    cur: "EGP",
+  },
+  products: {
+    title: "Our Products",
+    sub: "Tropical flavors crafted with real fruit, no shortcuts.",
+    category: "Jams",
+    addToCart: "Add to cart",
+  },
+  productNames: {
+    "dragon-strawberry": "Dragon Fruit & Strawberry Jam — 160g",
+    "lychee": "Lychee Jam — 160g",
+    "passion-lemon": "Passion Fruit & Lemon Jam — 160g",
+    "passion": "Passion Fruit Jam — 160g",
+    "collection-box": "Tropical Jam Collection Box — 4 Flavours",
+  },
+  about: {
+    eyebrow: "Our Story",
+    title: "Real fruit, honest craft.",
+    p1: "At Primeroots, we believe great taste begins at the source. Our journey started with a simple idea — to bring back the authentic flavor of real fruits using honest ingredients and careful craftsmanship.",
+    p2: "In a world full of artificial flavors and shortcuts, we chose to go back to nature, where quality and simplicity create the best experiences.",
+    f1t: "Real Fruit", f1d: "45g of fruit per 100g of jam — you can taste it in every spoonful.",
+    f2t: "No Preservatives", f2d: "Free from artificial colors, preservatives, and artificial flavors.",
+    f3t: "Crafted in Cairo", f3d: "Small-batch production with honest ingredients and careful craftsmanship.",
+  },
+  faq: {
+    title: "Frequently Asked Questions",
+    sub: "Everything you need to know about Primeroots.",
+    items: [
+      { q: "What is Primeroots?", a: "Primeroots is a line of premium tropical fruit jams, made with real fruit to deliver a fresh, non-traditional flavor experience. Enjoy it at breakfast, in lunch boxes, as a quick snack, with desserts, or in any recipe that needs a sweet, signature touch." },
+      { q: "What flavors are available?", a: "Our current range includes Lychee, Passion Fruit, Passion Fruit & Lemon, and Dragon Fruit & Strawberry. Each one has its own character — refreshing, fruity, smooth, or rich and exotic." },
+      { q: "Is Primeroots made with real fruit?", a: "Yes. We use real fruit — 45g of fruit per 100g of jam — which is why every spoonful tastes distinctly fresh and natural." },
+      { q: "Does it contain preservatives or artificial colors?", a: "No. Primeroots is free from preservatives, artificial colors, and artificial flavors, as stated on every jar." },
+    ],
+  },
+  testimonials: {
+    title: "What Our Customers Say",
+    sub: "Honest feedback from real jam lovers.",
+    role: "Verified Customer",
+    items: [
+      { t: "Honestly, I loved the flavor from the very first taste. I usually don't like products that are too sweet or have an obvious artificial taste, but this one was balanced and light. I really felt the flavor was coming from real fruit.", n: "Randa Mohamed" },
+      { t: "I'm usually picky about taste because I don't like things that are too sugary or leave a weird aftertaste. What I liked here is that the flavor was balanced and not overpowering, and the texture was just right. Overall a really good experience.", n: "Salma Yasser" },
+      { t: "The delivery and packaging experience was great. The order arrived on time, and the box looked neat and well sealed. I love it when something arrives without feeling like it was handled carelessly in shipping.", n: "Youssef Ali" },
+    ],
+  },
+  contact: {
+    title: "Get In Touch",
+    sub: "Have a question, a wholesale inquiry, or just want to say hi? We'd love to hear from you.",
+    phone: "Phone", email: "Email", location: "Location", cairo: "Cairo, Egypt",
+    whatsapp: "WhatsApp Us",
+    name: "Your name", yourEmail: "Your email", subject: "Subject", message: "Your message (optional)",
+    submit: "Send Message",
+  },
+  footer: {
+    tagline: "From Nature to Your Table",
+    quick: "Quick Links", site: "Site Links",
+    privacy: "Privacy Policy", terms: "Terms & Conditions", shipping: "Shipping & Return Policy",
+    rights: "All rights reserved.", back: "Back to top",
+  },
+};
+
+export const ar: typeof en = {
+  announce: "شحن مجاني للطلبات فوق ١٠٠٠ جنيه",
+  nav: { home: "الرئيسية", shop: "المتجر", about: "من نحن", contact: "تواصل معنا", shopNow: "تسوّق الآن" },
+  hero: {
+    badge: "مربى استوائي فاخر",
+    title: "احصل على مربى الصيف",
+    sub: "فاكهة حقيقية، نكهة جريئة. نصنعها بحب على دفعات صغيرة في القاهرة لنقدم لك طعم استوائي صادق.",
+    cta: "تسوّق المجموعة",
+    secondary: "قصتنا",
+    new: "جديد",
+    summer: "مربى الصيف",
+  },
+  trust: { real: "فاكهة حقيقية", no: "بدون مواد حافظة", made: "صنع في مصر" },
+  featured: {
+    eyebrow: "إصدار محدود",
+    title: "احصل على مجموعتك",
+    name: "بوكس مربى استوائي — ٤ نكهات",
+    desc: "بوكس هدايا استوائي يضيف لمسة مميزة لكل قضمة. اكتشف ٤ نكهات مربى فاخرة مصنوعة من فاكهة حقيقية، معبأة في بوكس أنيق.",
+    boxLabel: "يحتوي على",
+    flavors: ["ليتشي", "دراجون فروت و فراولة", "باشن فروت", "باشن فروت و ليمون"],
+    features: ["مصنوع من فاكهة حقيقية", "بدون ألوان صناعية", "بدون مواد حافظة", "تغليف أنيق مثالي للهدايا"],
+    cta: "أضف إلى السلة",
+    cur: "جنيه",
+  },
+  products: {
+    title: "منتجاتنا",
+    sub: "نكهات استوائية مصنوعة من فاكهة حقيقية، بدون اختصارات.",
+    category: "مربى",
+    addToCart: "أضف إلى السلة",
+  },
+  productNames: {
+    "dragon-strawberry": "مربى دراجون فروت و فراولة — ١٦٠ جم",
+    "lychee": "مربى ليتشي — ١٦٠ جم",
+    "passion-lemon": "مربى باشن فروت و ليمون — ١٦٠ جم",
+    "passion": "مربى باشن فروت — ١٦٠ جم",
+    "collection-box": "بوكس مربى استوائي — ٤ نكهات",
+  },
+  about: {
+    eyebrow: "قصتنا",
+    title: "فاكهة حقيقية، حرفة صادقة.",
+    p1: "في برايم روتس، نؤمن إن الطعم الحلو الحقيقي بيبدأ من المصدر. رحلتنا بدأت بفكرة بسيطة — نرجع النكهة الأصلية للفواكه الحقيقية بمكونات صادقة وحرفية مدروسة.",
+    p2: "في عالم مليء بالنكهات الصناعية والاختصارات، اخترنا نرجع للطبيعة، حيث الجودة والبساطة بيخلوا أحسن تجربة.",
+    f1t: "فاكهة حقيقية", f1d: "٤٥ جم فاكهة في كل ١٠٠ جم مربى — بتحس بالفرق في كل معلقة.",
+    f2t: "بدون مواد حافظة", f2d: "خالي من الألوان الصناعية، المواد الحافظة، والنكهات الصناعية.",
+    f3t: "صنع في القاهرة", f3d: "إنتاج على دفعات صغيرة بمكونات صادقة وحرفية مدروسة.",
+  },
+  faq: {
+    title: "الأسئلة الشائعة",
+    sub: "كل ما تحتاج معرفته عن برايم روتس.",
+    items: [
+      { q: "مين هي برايم روتس ؟", a: "هي مربى بنكهات استوائية مختلفة، معمولة من فواكه حقيقية علشان تقدم تجربة طعم جديدة ومش تقليدية. تقدر تستخدمها في الفطار، اللانش بوكس، السناك السريع، الحلويات، أو أي وصفة محتاجة لمسة حلوة ومميزة." },
+      { q: "إيه النكهات المتوفرة من برايم روتس ؟", a: "النكهات المتوفرة حاليًا هي: ليتشي، باشن فروت، باشن فروت و ليمون، دراجون فروت و فراولة. كل نكهة ليها طابع مختلف." },
+      { q: "هل مربي برايم روتس معمولة من فاكهة حقيقية ؟", a: "أيوه، معمولة من فواكه حقيقية، وتحتوي على ٤٥ جم فاكهة لكل ١٠٠ جم، وده بيساعد إن الطعم يكون واضح ومميز في كل معلقة." },
+      { q: "هل مربي برايم روتس فيها مواد حافظة أو ألوان صناعية ؟", a: "لا، خالية من المواد الحافظة، وخالية من الألوان الصناعية والنكهات الصناعية، طبقًا للمعلومات الموجودة على العبوة." },
+    ],
+  },
+  testimonials: {
+    title: "آراء عملائنا",
+    sub: "تعليقات صادقة من محبين المربى الحقيقي.",
+    role: "عميل موثق",
+    items: [
+      { t: "بصراحة الطعم عجبني جدًا من أول مرة. مش بحب المنتجات اللي بيبقى فيها سكر زيادة أو طعم صناعي واضح، لكن ده كان متوازن وخفيف. حسيت فعلًا إن النكهة جاية من فاكهة حقيقية.", n: "راندا محمد" },
+      { t: "أنا عادةً بدقق في الطعم عشان مش بحب الحاجة اللي تبقى مسكّرة زيادة أو فيها طعم غريب بعدين. اللي عجبني هنا إن الطعم كان متوازن ومش مزعج، وكمان القوام كان مناسب. التجربة عمومًا كانت كويسة ومفيش حاجة ضايقتني.", n: "سلمى ياسر" },
+      { t: "التجربة كانت كويسة من ناحية التوصيل والتغليف. الأوردر وصل في معاده تقريبًا، والبوكس كان شكله نضيف ومقفول كويس. بحب لما الحاجة توصلني من غير ما أحس إنها اتعاملت بعشوائية في الشحن.", n: "يوسف علي" },
+    ],
+  },
+  contact: {
+    title: "تواصل معنا",
+    sub: "عندك سؤال، استفسار جملة، أو حابب تقول مرحبًا؟ يسعدنا نسمع منك.",
+    phone: "الهاتف", email: "البريد", location: "الموقع", cairo: "القاهرة، مصر",
+    whatsapp: "راسلنا واتساب",
+    name: "اسمك", yourEmail: "بريدك الإلكتروني", subject: "الموضوع", message: "رسالتك (اختياري)",
+    submit: "إرسال الرسالة",
+  },
+  footer: {
+    tagline: "من الطبيعة إلى مائدتك",
+    quick: "روابط سريعة", site: "روابط الموقع",
+    privacy: "سياسة الخصوصية", terms: "الشروط والأحكام", shipping: "سياسة الشحن والإرجاع",
+    rights: "جميع الحقوق محفوظة.", back: "العودة للأعلى",
+  },
+};
+
+export const translations = { en, ar };
+export type Dictionary = typeof en;
